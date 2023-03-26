@@ -1,0 +1,203 @@
+/** Last Updated: 7/2020 **/
+/* Title magic is in the JS bit - these are just to make it pretty~ */
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lobster&display=swap');
+.prev,
+.next-container{
+		display: grid;
+		padding: 3rem 0;
+		margin: 0 auto;
+}
+.prev{
+		grid-template-columns: 1.5fr 1fr;
+	 -moz-column-gap: 2rem;
+	      column-gap: 2rem;
+		max-width: 1200px;
+}
+.prev .placeholder{
+		align-self: center;
+}
+.prev .placeholder:nth-child(1){
+		max-width: 700px;
+}
+.article-head{
+		position: relative;
+		padding: 2rem 0;
+		background: #ffffff;
+}
+.article-head .content-width{
+		display: grid;
+		grid-template-columns: 8fr 2fr;
+		-moz-column-gap: 2rem;
+		     column-gap: 2rem;
+		max-width: 1200px;
+		margin: 0 auto;
+}
+.flair{
+		position: absolute;
+		display: inline-block;
+		top: -17px;
+		left: 50%;
+		margin-left: -97px;
+		padding: .5rem 2rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #fff;
+		background: red;
+		-webkit-clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
+		        clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
+}
+.flair p{
+		margin: 0;
+}
+html {
+	background-color: #000000;
+	z-index: -2;
+}
+.content-class{
+		display: grid;
+		grid-template-columns: 2fr 4fr;
+		-moz-column-gap: 2rem;
+		     column-gap: 2rem;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 4rem 0;
+}
+.content-class img{
+		margin-top: 1rem;
+		width: 100%;
+}
+.subtitle{
+		text-align: center;
+}
+.next{
+		align-items: center;
+		justify-items: center;
+		color: #fff;
+		background: #222;
+}
+.next-container{
+		grid-template-columns: 1fr 1fr;
+		-moz-column-gap: 2rem;
+		     column-gap: 2rem;
+		max-width: 1200px;
+}
+.next .placeholder{
+		max-width: 700px;
+}
+
+.line{
+		display: block;
+		width: 100%;
+		height: 2rem;
+		margin: 1rem 0;
+		background: lightgray;
+}
+.next .line{
+		background: #ccc;
+}
+.circle{
+		display: block;
+		width: 100%;
+		height: 100%;
+		min-height: 250px;
+		background: url("sherwood-forest-ss-1061683007.jpg")no-repeat center;
+		background-size: cover;
+}
+button{
+  color: #000000;
+  font-size: 18px;
+  background: rgba(225, 225, 0, 1);
+  border-color: rgba(85, 85, 85, 0);
+  box-shadow: 0px 0px 14px 0.2px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	font-family: 'Irish Grover', cursive;
+	font-size: 90px;
+	color: #fff;
+	filter: drop-shadow(10px 10px 4px #000000);
+}
+
+h2 {
+	position: absolute;
+	font-family: 'Lobster', cursive;
+	color: #fff;
+	filter: drop-shadow(10px 10px 4px #000000);
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+.year {
+	display: flex;
+	justify-content: end;
+}
+ .gif {
+	filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
+ } 
+  .wrapper a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 3px;
+	text-transform: uppercase;
+	color: #585858;
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  .modal {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(77, 77, 77, .7);
+	transition: all .4s;
+  }
+  
+  .modal:target {
+	visibility: visible;
+	opacity: 1;
+  }
+  
+  .modal__content {
+	border-radius: 4px;
+	position: relative;
+	width: 500px;
+	max-width: 90%;
+	background: #fff;
+	padding: 1em 2em;
+  }
+  
+  .modal__close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #585858;
+	text-decoration: none;
+  }
+
+ .button-class {
+	width: 100%;
+ }
+
+ h3 {
+	font-size: 28px;
+ }
+
+ .wrapper {
+	font-size: 19px;
+ }
+
+
+ /* ///////////////////////////////// */
+
+
+
